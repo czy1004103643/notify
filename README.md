@@ -6,7 +6,7 @@
 不过，后期可以添加比对功能，学校内部收集信息很多时候需要这个玩意。主要是前端写起来累。
 
 ## 使用
-公网上访问：http://main.melodyl.xyz/table/就可以访问了
+公网上访问：[http://main.melodyl.xyz/table/](http://main.melodyl.xyz/table/)就可以访问了
 
 > 体验账户用户名：guest；密码：guest。
 
