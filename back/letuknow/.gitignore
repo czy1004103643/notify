@@ -1,0 +1,6 @@
+/target/*
+/web/*
+/src/test/*
+/src/main/resources/*
+.idea/
+
