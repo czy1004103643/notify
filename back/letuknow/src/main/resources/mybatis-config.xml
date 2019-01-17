@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!--开启驼峰命名规则-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--自动生成主键-->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!--设置可为null-->
+        <setting name="jdbcTypeForNull" value="NULL"/>
+        <!-- 打印查询语句 -->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    <mappers>
+        <mapper resource="xyz/melodyl/mapper/table/tableMapper.xml" />
+    </mappers>
+</configuration>
